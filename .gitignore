@@ -1,0 +1,25 @@
+# Virtual environments & Python caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Large media downloads & rendered videos (GitHub 100 MB file limit)
+*.m4a
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.part
+*.ytdl
+
+# Temporary run outputs & previews
+runs/
+clips/peek/
+clips/out/
+app_state.json
+run.log
+
